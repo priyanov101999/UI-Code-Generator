@@ -1,0 +1,21 @@
+cat > .gitignore <<'EOF'
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+Backend/venv/
+
+# Node
+node_modules/
+front-end/node_modules/
+
+# Generated vector DB
+Backend/app/chroma_db/
+Backend/chroma_db/
+chroma_db/
+EOF

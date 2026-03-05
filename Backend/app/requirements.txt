@@ -1,0 +1,13 @@
+langchain
+langchain-community
+langchain-huggingface
+chromadb
+python-dotenv
+fastapi
+uvicorn
+transformers
+accelerate
+sentence-transformers
+torch
+bitsandbytes
+tiktoken
